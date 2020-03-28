@@ -1,5 +1,5 @@
-// import axios from 'axios';
-// async function getRecp(query) {
-//     const recpCall = await axios(`https://jsonplaceholder.typicode.com/todos/${query}`);
-// }
-// getRecp('1');
+import str from "./models/Search";
+import add from "./views/searchView";
+console.log(str);
+const reslt = add(6,9);
+console.log(reslt);
